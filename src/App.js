@@ -2,6 +2,7 @@
   import "bootstrap/dist/css/bootstrap.min.css";
   import Navbar from "./Components/Navbar";
   import Header from "./Components/Header";
+  import Contact from "./Components/Contact";
   import Particles from "react-particles-js";
 
   function App() {
@@ -32,6 +33,7 @@
     }} />
         <Navbar/>
         <Header/>
+        <Contact/>
         </>
       </div>
     );

@@ -44,6 +44,7 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: black;
+  --primary-dark:gray;
 }
 /**Body**/
 body {
@@ -149,4 +150,14 @@ nav ul li {
   .particles-canvas {
     display: none;
   }
+}
+/*** Contact me ****/
+.contacts{
+  background-color: var(--primary-black);
+  padding: 3rem 0;
+}
+.contacts h1{
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
 }
